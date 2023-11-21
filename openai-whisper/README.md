@@ -10,15 +10,15 @@ Analyzing stock tick data in SingleStoreDB using LangChain and OpenAI's Whisper.
 
 # Installing
 ```
-cd python
+cd openai-whisper/python
 bash install.sh
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
+cp constants.example.py constants.py
 ```
-Copying `constants.example.py` to `constants.py`
 
-Adding info 
+Updating details in the `constants.py` 
 # Getting started
 ```
 python3 record-transcribe.py
