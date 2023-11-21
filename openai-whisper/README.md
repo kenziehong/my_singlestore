@@ -5,17 +5,21 @@ Analyzing stock tick data in SingleStoreDB using LangChain and OpenAI's Whisper.
 # Loading data
 - [load_stock_tick_data_from_kafka_into_singlestoredb](notebook/load_stock_tick_data_from_kafka_into_singlestoredb.ipynb)
 
-# Analysing data
-- [quick_tip_analysing_stock_tick_data_in_singlestoredb_using_langchain](notebook/quick_tip_analysing_stock_tick_data_in_singlestoredb_using_langchain.ipynb)
+# Analyzing data
+- [quick_tip_analyzing_stock_tick_data_in_singlestoredb_using_langchain](notebook/quick_tip_analyzing_stock_tick_data_in_singlestoredb_using_langchain.ipynb)
 
-# Setting
+# Installing
 ```
 cd python
 bash install.sh
 python3 -m venv env
 source env/bin/activate
+pip install -r requirements.txt
 ```
-# Running
+Copying `constants.example.py` to `constants.py`
+
+Adding info 
+# Getting started
 ```
 python3 record-transcribe.py
 ```
